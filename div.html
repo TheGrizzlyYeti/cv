@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YATHARTH - Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; color: #333; }
+        
+        /* Layout Container */
+        .resume-container { display: flex; flex-wrap: wrap; gap: 40px; max-width: 1000px; margin: auto; }
+        
+        /* Left Column (Sidebar) */
+        .sidebar { flex: 1; min-width: 250px; background: #f4f4f4; padding: 20px; border-radius: 8px; }
+        .sidebar img { border-radius: 50%; display: block; margin: 0 auto 20px; }
+        .sidebar h3 { border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-top: 25px; }
+        .sidebar ul { list-style: none; padding: 0; }
+        .sidebar li { margin-bottom: 10px; font-size: 0.9em; }
+
+        /* Right Column (Main Content) */
+        .main-content { flex: 2; min-width: 300px; }
+        .main-content h2 { color: #2c3e50; text-transform: uppercase; margin-bottom: 5px; }
+        .section-title { background: #eee; padding: 5px 10px; font-weight: bold; margin-top: 20px; }
+        .entry { display: flex; justify-content: space-between; margin-top: 10px; }
+        .entry h5 { margin: 0; font-size: 1em; }
+        .date { font-size: 0.9em; color: #666; }
+
+        /* Mobile View */
+        @media (max-width: 600px) {
+            .resume-container { flex-direction: column; }
+            .entry { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <aside class="sidebar">
+        <img src="mypic.JPG" alt="Yatharth DP" width="120">
+        
+        <h3>Contact</h3>
+        <ul>
+            <li>📍 H.No. 1, Tower Enclave, Hisar</li>
+            <li>📞 <a href="tel:+917206340750">Call Me</a></li>
+            <li>✉️ <a href="mailto:yatharth.mehta007@gmail.com">Email</a></li>
+            <li>🔗 <a href="https://www.linkedin.com/in/iyatharth/" target="_blank">LinkedIn</a></li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+            <li><strong>Databases:</strong> MySQL, MariaDB</li>
+            <li><strong>Programming:</strong> Java, Python, Go</li>
+            <li><strong>Web:</strong> HTML, CSS, XML</li>
+        </ul>
+
+        <h3>Certifications</h3>
+        <ul>
+            <li>Google Sheets Training</li>
+            <li>Data Analysis Essentials</li>
+            <li>Power BI Training</li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <h2>YATHARTH</h2>
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <p>Dedicated to self-development and passionate about programming. Ready to work closely with teams to identify efficient and beneficial solutions.</p>
+
+        <div class="section-title">EXPERIENCE</div>
+        
+        <div class="entry">
+            <div>
+                <h5>Digital Marketing Senior Associate</h5>
+                <span>Google Operation Center (GOC)</span>
+            </div>
+            <div class="date">02/2025 - Present</div>
+        </div>
+
+        <div class="entry">
+            <div>
+                <h5>Analyst</h5>
+                <span>Google Operation Center (GOC)</span>
+            </div>
+            <div class="date">10/2023 - 02/2025</div>
+        </div>
+
+        <div class="section-title">EDUCATION</div>
+        <div class="entry">
+            <div><strong>MCA (9.5 CGPA)</strong><br>SRM Institute, Chennai</div>
+            <div class="date">2023 - 2025</div>
+        </div>
+        <div class="entry">
+            <div><strong>BCA (Gold Medallist)</strong><br>SRM University, Sonepat</div>
+            <div class="date">2019 - 2022</div>
+        </div>
+
+        <div class="section-title">PROJECTS</div>
+        <ul>
+            <li><strong>Science Express:</strong> Learning platform using Java and MySQL.</li>
+            <li><strong>YSSS Healthcare:</strong> Symptom-based disease prediction system.</li>
+        </ul>
+    </main>
+</div>
+
+</body>
+</html>
